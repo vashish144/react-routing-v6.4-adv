@@ -3,7 +3,7 @@ import { json, redirect, useLoaderData } from "react-router-dom";
 import EventForm from "../components/EventForm";
 
 const NewEventPage = () => {
-  return <EventForm />;
+  return <EventForm method="POST" />;
 };
 
 export default NewEventPage;

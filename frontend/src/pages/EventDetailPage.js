@@ -11,7 +11,7 @@ const EventDetailPage = () => {
   const data = useRouteLoaderData("event-detail");
   return (
     <div>
-      <EventItem event={data.event} />
+      <EventItem  event={data.event} />
     </div>
   );
 };
